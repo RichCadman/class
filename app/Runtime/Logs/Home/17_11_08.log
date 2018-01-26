@@ -1,0 +1,2194 @@
+[ 2017-11-08T23:43:46+08:00 ] 123.151.77.72 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1152 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:43:51+08:00 ] 125.39.46.44 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=3625 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=3625 and problem_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:43:51+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=3625 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:43:55+08:00 ] 61.151.178.176 /index.php/Login/login_share/my_openId/oIHJb0asm8WvVi4HK33OAGxEiRWQ?from=timeline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:44:18+08:00 ] 123.151.77.132 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+NOTIC: [8] Undefined index: userinfo C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `class_student` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `class_student` WHERE ( id= ) LIMIT 1  
+
+[ 2017-11-08T23:44:18+08:00 ] 123.151.77.132 /index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:44:19+08:00 ] 123.151.77.132 /index.php/Login/login_do?code=0611UQtb2NBhsP0xZSvb2lfOtb21UQtn&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0T2lrQaaIOERipWdMX9_7IQ' ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: UPDATE `class_student` SET `wx_name`='朱颖华',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/zYNm1iay2BtCOibsBGhBoXBbSiaSVzibCJE8eBdzLLg8AxoRic3BIF4tianMgIaQu6OX8icpiaF28uWcLicG07ic6f7GibEnw/0' WHERE ( openid='oIHJb0T2lrQaaIOERipWdMX9_7IQ' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0T2lrQaaIOERipWdMX9_7IQ' ) LIMIT 1   [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:44:19+08:00 ] 125.39.46.45 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0010s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:44:22+08:00 ] 123.151.77.72 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:44:23+08:00 ] 123.151.77.72 /index.php/Login/login_do?code=021jwJ8Y0t2OY12gsR6Y0boz8Y0jwJ8E&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0W91zh4_yffq80nwBqZpqA0' ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: UPDATE `class_student` SET `wx_name`='一帆风顺',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/MlPYG3WoaelPTy7111ZGhGdVXCBicKUhZT3GSzicAE5w2otTaWFwtbEpWyYicYOicnqicqYGsDOtTEWTW31XIJtcetQ/0' WHERE ( openid='oIHJb0W91zh4_yffq80nwBqZpqA0' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0W91zh4_yffq80nwBqZpqA0' ) LIMIT 1   [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:44:23+08:00 ] 123.151.77.72 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=1152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:44:25+08:00 ] 125.39.45.236 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1152 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:44:25+08:00 ] 125.39.45.236 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1152 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=1152 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:44:26+08:00 ] 111.30.142.233 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=1205 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:44:26+08:00 ] 123.151.77.132 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1205 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:44:26+08:00 ] 125.39.45.236 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1152 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:44:29+08:00 ] 123.151.77.72 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=5016 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:44:32+08:00 ] 123.151.77.72 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=5016 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:45:30+08:00 ] 61.151.178.176 /index.php/Index/get_answer?date=2017-11-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-03' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=2254 and problem_id=24 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content` FROM `class_problem` WHERE ( datetime='2017-11-03' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-08T23:45:30+08:00 ] 61.151.178.176 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=2254 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:45:49+08:00 ] 112.230.92.100 /index.php/Login/login_share/my_openId/oIHJb0fIGjhuurlqSyZ4nY9wxfR4?from=timeline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:45:50+08:00 ] 112.230.92.100 /index.php/Login/login_share_do/my_openId/oIHJb0fIGjhuurlqSyZ4nY9wxfR4?code=081QwJBq0zveUp1lx5Aq0X6KBq0QwJBH&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_student` SET `wx_name`='踏雪ソ漫步',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epd17gbNG0gauzgJNW90I1Ao6S7ZvsrzyVJvuqySA7ZMTN2fwQ9Yn6ibv1mXEFIOpAaW3FRfAmBfug/0' WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:45:50+08:00 ] 112.230.92.100 /index.php/Login/login_share_do/my_openId/oIHJb0fIGjhuurlqSyZ4nY9wxfR4?code=0010ERzD0tG0dd2DpFxD0PSBzD00ERzb&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_student` SET `wx_name`='踏雪ソ漫步',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epd17gbNG0gauzgJNW90I1Ao6S7ZvsrzyVJvuqySA7ZMTN2fwQ9Yn6ibv1mXEFIOpAaW3FRfAmBfug/0' WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) [ RunTime:0.0264s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0QMts0PSbdgSrFdrNoNxUAQ' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:45:52+08:00 ] 123.151.77.72 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:45:55+08:00 ] 125.39.46.45 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1205 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:45:55+08:00 ] 125.39.45.236 /index.php/Login/login_do?code=07147TRs1ShZob0rqwRs1pH3Ss147TRC&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0UfIajIZPP4XQwktizS6W2s' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: UPDATE `class_student` SET `wx_name`='逗逗',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/1uicRfUe5tvMBicWKeiavraribfYIFe3rRZazs3iaOhnxclSLOKeXu5MrqE1iaRR2Ln9fr1Hibic8O9HR3QxbKu6klDCfQ/0' WHERE ( openid='oIHJb0UfIajIZPP4XQwktizS6W2s' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0UfIajIZPP4XQwktizS6W2s' ) LIMIT 1   [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:45:55+08:00 ] 123.151.77.72 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=963 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:45:57+08:00 ] 125.39.46.45 /index.php/Point/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:45:58+08:00 ] 125.39.46.45 /index.php/Point/punch_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: SELECT `point` FROM `class_detail` WHERE ( user_id=1205 and time between 1510070400 and 1510156800 )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc LIMIT 100   [ RunTime:0.0107s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc  [ RunTime:0.0684s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc  [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:45:58+08:00 ] 123.151.77.72 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=963 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_join` WHERE ( user_id=963 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `class_join` SET `add_time`='1510155958',`photo`='http://wx.qlogo.cn/mmopen/vi_32/1uicRfUe5tvMBicWKeiavraribfYIFe3rRZazs3iaOhnxclSLOKeXu5MrqE1iaRR2Ln9fr1Hibic8O9HR3QxbKu6klDCfQ/0' WHERE ( user_id=963 ) [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:45:58+08:00 ] 125.39.45.236 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=963 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:45:59+08:00 ] 123.233.146.132 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:45:59+08:00 ] 123.151.77.72 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=963 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:46:19+08:00 ] 125.39.132.70 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:23+08:00 ] 123.151.77.72 /index.php/Login/login_do?code=001E5OH90yhWJv12qYF90X3JH90E5OH0&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0aKrnwPyBrwLc67-33fuoqI' ) LIMIT 1   [ RunTime:0.0078s ]
+SQL: UPDATE `class_student` SET `wx_name`='喜羊羊',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/wWwqibZ06ibh8hxvhRibCDyCUVz2RMIqTCuhZMf9TxlTlj4WBQlmpUhsKpsF8UF186tMqtUvrr2U5Mib8YSmL85hkQ/0' WHERE ( openid='oIHJb0aKrnwPyBrwLc67-33fuoqI' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0aKrnwPyBrwLc67-33fuoqI' ) LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:24+08:00 ] 123.151.77.72 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:46:29+08:00 ] 123.151.77.72 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:33+08:00 ] 123.151.77.72 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=5016 and problem_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:35+08:00 ] 123.151.77.132 /index.php/Point/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:35+08:00 ] 123.151.77.72 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:35+08:00 ] 123.151.77.132 /index.php/Point/punch_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1205 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: SELECT `point` FROM `class_detail` WHERE ( user_id=1205 and time between 1510070400 and 1510156800 )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc  [ RunTime:0.0684s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc  [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:37+08:00 ] 125.39.132.70 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=5016 and problem_id=33 ) LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:37+08:00 ] 125.39.132.70 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:46:39+08:00 ] 125.39.132.70 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=5016 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=5016 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:43+08:00 ] 125.39.132.70 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=5016 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:46:47+08:00 ] 125.39.46.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:46:49+08:00 ] 123.151.77.123 /index.php/Login/login_do?code=061N96U32qVaqM0jaiV32cd8U32N96U8&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0fVXGDtp4tE6rSci01_n48Q' ) LIMIT 1   [ RunTime:0.0059s ]
+SQL: UPDATE `class_student` SET `wx_name`='Capricorn',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/WUj9OyyKJ7uSkLOr2PBpiaanRMeqKiaBWyVNTdSOAOibGlnxttHt1G8uE38QHFyHeQ73iaGjyRLw77bSS9YZ8O8frg/0' WHERE ( openid='oIHJb0fVXGDtp4tE6rSci01_n48Q' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0fVXGDtp4tE6rSci01_n48Q' ) LIMIT 1   [ RunTime:0.0059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:46:49+08:00 ] 123.151.77.123 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0049s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=2215 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:51+08:00 ] 125.39.46.44 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=2215 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:52+08:00 ] 111.30.142.233 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=2215 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=2215 and problem_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:46:53+08:00 ] 111.30.142.233 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=2215 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:46:53+08:00 ] 113.128.130.15 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:46:53+08:00 ] 123.151.77.132 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1205 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:47:46+08:00 ] 123.233.211.164 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:47:47+08:00 ] 123.233.211.164 /?_t_t_t=0.7570466646591816
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:47:48+08:00 ] 123.151.77.70 /index.php/Login/login_share/my_openId/oIHJb0eV0OeqNk1NSbaH9jaV55W4?from=timeline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:49:32+08:00 ] 123.151.77.90 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:49:33+08:00 ] 123.151.77.90 /index.php/Login/login_do?code=011bpKyg2Fu0oC0Em3xg2zGWyg2bpKyj&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0ZOkbFIJlQXCiQj2EtKGDCs' ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: UPDATE `class_student` SET `wx_name`='素    微信:18615687698',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/vJ3oRtoBibD9lcbacnOQ8pQrCHibqtv7jkS1LjUJbZhyribW6NmXCY2uyeOn8ESXyfkE3LnX8icP6Sgwja9jeD7SPw/0' WHERE ( openid='oIHJb0ZOkbFIJlQXCiQj2EtKGDCs' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0ZOkbFIJlQXCiQj2EtKGDCs' ) LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:49:34+08:00 ] 123.151.77.90 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=1293 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:49:45+08:00 ] 125.39.46.44 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1293 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_join` WHERE ( user_id=1293 ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: UPDATE `class_join` SET `add_time`='1510156185',`photo`='http://wx.qlogo.cn/mmopen/vi_32/vJ3oRtoBibD9lcbacnOQ8pQrCHibqtv7jkS1LjUJbZhyribW6NmXCY2uyeOn8ESXyfkE3LnX8icP6Sgwja9jeD7SPw/0' WHERE ( user_id=1293 ) [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:49:45+08:00 ] 125.39.46.44 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1293 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:49:45+08:00 ] 124.239.251.68 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:49:46+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:27+08:00 ] 123.151.77.90 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:27+08:00 ] 123.151.77.90 /index.php/Index/get_answer?date=2017-11-8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-08' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content` FROM `class_problem` WHERE ( datetime='2017-11-08' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-08T23:50:30+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:30+08:00 ] 123.151.77.90 /index.php/Index/get_answer?date=2017-11-7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-07' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=32 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:31+08:00 ] 125.39.46.44 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1293 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: info C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 190 行.
+NOTIC: [8] Undefined variable: submit C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 191 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:50:31+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:38+08:00 ] 125.39.46.44 /index.php/Index/success_zz/problem_id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+NOTIC: [8] Undefined index: problem_id C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 245 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:50:39+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:50:42+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:42+08:00 ] 123.151.77.90 /index.php/Index/get_answer1?date=2017-11-7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-07' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=32 ) LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2017-11-08T23:50:43+08:00 ] 125.39.46.44 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:44+08:00 ] 125.39.46.44 /index.php/Index/get_answer1?date=2017-11-8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-08' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:44+08:00 ] 125.39.46.44 /index.php/Index/get_answer1?date=2017-11-7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( datetime='2017-11-07' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0049s ]
+SQL: SELECT `sub_content1` FROM `class_submit` WHERE ( user_id=1293 and problem_id=32 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:50:45+08:00 ] 123.151.77.90 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:50:45+08:00 ] 125.39.46.44 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1293 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:50:45+08:00 ] 124.239.251.68 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:50:45+08:00 ] 123.151.77.90 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1293 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:50:53+08:00 ] 125.39.132.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:50:54+08:00 ] 125.39.132.94 /index.php/Login/login_do?code=071Lpzu10U8XGF1nRgv10diUu10LpzuX&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0dYTkitxp5ToDKfmkvnUR8M' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_student` SET `wx_name`='曹洪梅',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoR11qsvXBal32icYVXBNcnvy7iaUQzRR1KCvwibFfS4kmeyn8EkkGXpRcnxw0rBg059TPg04neBEicibA/0' WHERE ( openid='oIHJb0dYTkitxp5ToDKfmkvnUR8M' ) [ RunTime:0.0283s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0dYTkitxp5ToDKfmkvnUR8M' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-08T23:50:54+08:00 ] 123.151.77.123 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=189 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:50:58+08:00 ] 125.39.132.94 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=189 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:50:58+08:00 ] 123.151.77.123 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=189 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=189 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:51:01+08:00 ] 125.39.132.94 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=189 )  [ RunTime:0.0029s ]
+
+[ 2017-11-08T23:51:09+08:00 ] 219.228.124.44 /index.php/Login/login_share/my_openId/oIHJb0QQFVv9JTcEkjCeyim67F_k?from=timeline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:53:34+08:00 ] 123.151.77.70 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:53:38+08:00 ] 123.151.77.70 /index.php/Login/login_do?code=0617Faxy1YEI3h04Pmzy1I1Rwy17FaxZ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0SzwtlgoTAxpzVeKNjBeadQ' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `class_student` SET `wx_name`='From the war',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/LrOHoV40E0VyibF0k5zj8N2Kvnv2tQF1TicialArFrOMheRSOQ0uic3JJibVOEMUiaQLWdXrpobf7St5BcPiaicGbQFn6g/0' WHERE ( openid='oIHJb0SzwtlgoTAxpzVeKNjBeadQ' ) [ RunTime:0.0264s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0SzwtlgoTAxpzVeKNjBeadQ' ) LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:53:38+08:00 ] 123.151.77.70 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=698 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:53:41+08:00 ] 125.39.132.94 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=698 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:53:41+08:00 ] 123.151.77.70 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=698 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=698 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:53:42+08:00 ] 125.39.132.94 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=698 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:53:58+08:00 ] 1.180.237.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:53:59+08:00 ] 1.180.237.227 /index.php/Login/login_do?code=011Kuf7K1qpYV50fWF7K19rt7K1Kuf7h&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0SLjujR703ZYviarc0yH56Q' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `class_student` SET `wx_name`='云淡风轻',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/Np4icTvbU8jKYcDPKctD6uFMDB9ktETCuhcgUC3UE445ZL2PGUzGD2Fb7Bue3zSSfkqVhTSnqvA4NBCKAV781kQ/0' WHERE ( openid='oIHJb0SLjujR703ZYviarc0yH56Q' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0SLjujR703ZYviarc0yH56Q' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:53:59+08:00 ] 1.180.237.227 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=399 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:54:03+08:00 ] 1.180.237.227 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=399 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_join` WHERE ( user_id=399 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_join` SET `add_time`='1510156442',`photo`='http://wx.qlogo.cn/mmopen/vi_32/Np4icTvbU8jKYcDPKctD6uFMDB9ktETCuhcgUC3UE445ZL2PGUzGD2Fb7Bue3zSSfkqVhTSnqvA4NBCKAV781kQ/0' WHERE ( user_id=399 ) [ RunTime:0.0117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:54:03+08:00 ] 1.180.237.227 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=399 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:54:03+08:00 ] 1.180.237.227 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:54:03+08:00 ] 1.180.237.227 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=399 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:54:14+08:00 ] 125.39.46.46 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:54:15+08:00 ] 123.151.77.74 /index.php/Login/login_do?code=021rSM9y0Jg7jf1miAby0hOS9y0rSM9Y&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0fLyKajHUpJbQr23lEfjfvc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_student` SET `wx_name`='lucy',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj4lU909M1k2m7XI4UDDuBVxRoj270l4fC3NSUtQhGbDia0aiaL9xUUnkxaVDsC3WD3qAmibcevVqSQ/0' WHERE ( openid='oIHJb0fLyKajHUpJbQr23lEfjfvc' ) [ RunTime:0.0264s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0fLyKajHUpJbQr23lEfjfvc' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:54:15+08:00 ] 125.39.46.46 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=322 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:54:17+08:00 ] 123.151.77.74 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=322 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_join` WHERE ( user_id=322 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `class_join` SET `add_time`='1510156457',`photo`='http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj4lU909M1k2m7XI4UDDuBVxRoj270l4fC3NSUtQhGbDia0aiaL9xUUnkxaVDsC3WD3qAmibcevVqSQ/0' WHERE ( user_id=322 ) [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:54:17+08:00 ] 123.151.77.74 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=322 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:54:18+08:00 ] 39.64.113.245 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:54:18+08:00 ] 123.151.77.74 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=322 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:54:38+08:00 ] 39.64.113.245 /index.php/Submit/submit/problem_id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT `add_time` FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `class_submit` WHERE ( user_id=322 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\class\lib\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `title`,`datetime` FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `class_submit` (`user_id`,`problem_id`,`sub_title`,`sub_content1`,`time`,`add_time`) VALUES ('322','33','每日一练第八练','image/2017-11-08/5a0328bd46209.jpg','2017-11-08','1510156478') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `invitation`,`last_punch_time`,`count`,`total_count`,`point`,`max_count` FROM `class_student` WHERE ( id=322 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `class_student` SET `add_time`='1510156478',`last_punch_time`='1510156478',`count`='8',`total_count`='8',`point`='115',`today_point`='5',`max_count`='8' WHERE `id` = 322 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: INSERT INTO `class_detail` (`user_id`,`time`,`point`,`type`) VALUES ('322','1510156478','5','打卡积分') [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:54:38+08:00 ] 123.151.77.74 /index.php/Index/success1/problem_id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=322 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:55:51+08:00 ] 111.14.80.235 /index.php/Submit/submit/problem_id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT `add_time` FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `class_submit` WHERE ( user_id=746 and problem_id=33 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\class\lib\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `title`,`datetime` FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `class_submit` (`user_id`,`problem_id`,`sub_title`,`sub_content1`,`time`,`add_time`) VALUES ('746','33','每日一练第八练','image/2017-11-08/5a032906e2814.jpg','2017-11-08','1510156551') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `invitation`,`last_punch_time`,`count`,`total_count`,`point`,`max_count` FROM `class_student` WHERE ( id=746 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `class_student` SET `add_time`='1510156551',`last_punch_time`='1510156551',`count`='2',`total_count`='7',`point`='110',`today_point`='5' WHERE `id` = 746 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0029s ]
+SQL: INSERT INTO `class_detail` (`user_id`,`time`,`point`,`type`) VALUES ('746','1510156551','5','打卡积分') [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:55:52+08:00 ] 111.14.80.235 /index.php/Index/success1/problem_id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_problem` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=746 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:44+08:00 ] 125.39.45.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:45+08:00 ] 125.39.45.236 /index.php/Login/login_do?code=0817IcR21na2xO1gVpQ21vBNQ217IcRD&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0YaK2howf-UulDQ7ZLTKuLs' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `class_student` SET `wx_name`='小宇老师',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoBJUr76nYc3e5d01xBic60S1uV2TOWOVjBEo8iaSLiaEvPVUPQUQkCpkwmcfmnr2I1z88ThSgibmOX3A/0' WHERE ( openid='oIHJb0YaK2howf-UulDQ7ZLTKuLs' ) [ RunTime:0.0254s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0YaK2howf-UulDQ7ZLTKuLs' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:45+08:00 ] 125.39.45.236 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:46+08:00 ] 123.151.77.72 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:47+08:00 ] 123.151.77.49 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:58:48+08:00 ] 123.151.77.49 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=46 and problem_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:48+08:00 ] 125.39.45.236 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=46 )  [ RunTime:0.0010s ]
+
+[ 2017-11-08T23:58:54+08:00 ] 123.151.77.49 /index.php/Point/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:54+08:00 ] 125.39.45.236 /index.php/Point/punch_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: SELECT `point` FROM `class_detail` WHERE ( user_id=46 and time between 1510070400 and 1510156800 )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc  [ RunTime:0.0645s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc  [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:58:59+08:00 ] 125.39.45.236 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=46 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:59:04+08:00 ] 111.30.142.252 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:59:04+08:00 ] 125.39.45.236 /index.php/Index/answer1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`content`,`result` FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sub_content1` FROM `class_submit` WHERE ( user_id=46 and problem_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:59:05+08:00 ] 125.39.45.236 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=46 )  [ RunTime:0.0020s ]
+
+[ 2017-11-08T23:59:06+08:00 ] 125.39.45.236 /index.php/Point/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:59:06+08:00 ] 125.39.45.236 /index.php/Point/punch_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: SELECT `point` FROM `class_detail` WHERE ( user_id=46 and time between 1510070400 and 1510156800 )  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc LIMIT 100   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc  [ RunTime:0.0801s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc  [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-08T23:59:11+08:00 ] 123.151.77.49 /index.php/Point/punch_success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_detail` [ RunTime:0.0020s ]
+SQL: SELECT `point` FROM `class_detail` WHERE ( user_id=46 and time between 1510070400 and 1510156800 )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` ORDER BY point desc,last_punch_time asc  [ RunTime:0.0674s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc LIMIT 100   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `class_student` WHERE ( last_punch_time between 1510070400 and 1510156800 ) ORDER BY last_punch_time asc  [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:59:21+08:00 ] 39.78.78.246 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-08T23:59:22+08:00 ] 39.78.78.246 /index.php/Login/login_do?code=011blwFi2O9I0J0HeEEi2oQdFi2blwFp&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0RUmLgWLhEwzVRyuJEsTjgA' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: UPDATE `class_student` SET `wx_name`='雁南飞',`wx_photo`='http://wx.qlogo.cn/mmopen/vi_32/FacViacg0pUfs0ibX8RwUYw1UU6t1BcBibAc0hQWGmGYeiblFczyAxBPEse7kxMXyphmHE0ru8pvtJ3rtG0vkp858A/0' WHERE ( openid='oIHJb0RUmLgWLhEwzVRyuJEsTjgA' ) [ RunTime:0.0264s ]
+SQL: SELECT * FROM `class_student` WHERE ( openid='oIHJb0RUmLgWLhEwzVRyuJEsTjgA' ) LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:59:22+08:00 ] 39.78.78.246 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0029s ]
+SQL: SELECT `clear` FROM `class_student` WHERE ( id=1671 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_id`,`add_time`,`photo`,`nick_name` FROM `class_join` ORDER BY add_time desc LIMIT 9   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class_join` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:59:24+08:00 ] 39.78.78.246 /index.php/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1671 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_join` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `class_join` WHERE ( user_id=1671 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `class_join` SET `add_time`='1510156764',`photo`='http://wx.qlogo.cn/mmopen/vi_32/FacViacg0pUfs0ibX8RwUYw1UU6t1BcBibAc0hQWGmGYeiblFczyAxBPEse7kxMXyphmHE0ru8pvtJ3rtG0vkp858A/0' WHERE ( user_id=1671 ) [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-08T23:59:24+08:00 ] 39.78.78.246 /index.php/Index/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_problem` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_problem` WHERE ( add_time between 1510070400 and 1510156800 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `class_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_student` WHERE ( id=1671 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:59:24+08:00 ] 39.78.78.246 /index.php/Index/img/pzsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-08T23:59:24+08:00 ] 39.78.78.246 /index.php/Index/getJSON
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\class\app\Home\Controller\IndexController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `class_submit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class_submit` WHERE ( user_id=1671 )  [ RunTime:0.0020s ]
+

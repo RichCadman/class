@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>积分详情</title>
+<link rel="stylesheet" type="text/css" href="__HCSS__/kaola.css">
+</head>
+<body>
+<div>
+<foreach name="info" item="v" >
+	<div class="width92 center hidden radius6" style="margin-top:20px; margin-bottom:25px; background:#f7f7f7;  padding:10px;">
+    	<div class="fl">
+        	<h4 style="font-size:18px;">{$v.type}</h4>
+            <span class="other-month font12">{:date("Y-m-d H:s:i",$v['time'])}</span>
+        </div>
+        <div class="fr" style="line-height:40px; color:#1FAED7">+{$v.point}分</div>
+    </div>
+</foreach>	
+    
+</div>	
+</body>
+</html>

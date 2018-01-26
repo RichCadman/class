@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>分享</title>
+<link rel="stylesheet" type="text/css" href="__HCSS__/kaola.css">
+</head>
+<body>
+<include file="Public:wx_js" />
+	<div class=" width100">
+    	<img src="__HIMG__/share.png" class="width100">
+    </div>
+    <div class=" center width16 bj_fff" style="margin-top:-21%;">
+    	<img src="{$info.wx_photo}" class="width100 radius50">
+    </div>
+    <h3 class="tcenter font14" style="margin-top:10px;">{$info.wx_name}</h3>
+    <h4 class="tcenter" style="margin-top:15px;">欢迎参加中考每日一题活动</h4>
+    <div class="width45 center radius10" style="border:12px solid #CD5858; margin-top:15px; margin-bottom:15px;">
+     <!--二维码-->
+     <img src="__HIMG__/sharecode.jpg" class="width100">  
+    </div>
+    <div style="height:1px; background:#ccc; width:100%; margin-bottom:15px;"></div>
+    <div class="width92 center">{$content.content}</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.over{
+  width:100%;
+  overflow:auto;
+  /* white-space:pre-wrap;不换行 */
+  /* overflow-x:hidden;内容超出宽度时隐藏超出部分的内容  */
+}
